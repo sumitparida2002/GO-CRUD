@@ -1,17 +1,16 @@
-// package main
+package main
 
-// import (
-// 	"gorm.io/driver/mysql"
-// 	"gorm.io/gorm"
-// )
+import (
+	"gorm.io/gorm"
+)
 
 // var DB *gorm.DB
 
-// type Product struct {
-// 	gorm.Model
-// 	Code  string
-// 	Price uint
-// }
+type Product struct {
+	gorm.Model
+	Code  string
+	Price uint
+}
 
 // func main() {
 // 	dsn := "root:sumit@tcp(127.0.0.1:3306)/bookstore?charset=utf8mb4&parseTime=True&loc=Local"
